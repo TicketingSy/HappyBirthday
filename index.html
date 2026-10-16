@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10090b" />
+  <meta name="description" content="A little birthday surprise made with love." />
+  <title>October 17 — Happy Birthday, My Love ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient-glow"></div>
+  <canvas id="heartCanvas" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Go to home"><span class="brand-heart">♡</span> Happy Birthday, My Love</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#letter" class="nav-link">Love Letter</a>
+      <a href="#gallery" class="nav-link">Our Memories</a>
+     
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">OCTOBER 17 · TO MY BEAUTIFUL GIRLFRIEND</p>
+        <h1>Happy <em>Birthday</em></h1>
+        <p class="birthday-date">OCTOBER 17</p>
+        <p class="hero-subtitle">You make my world brighter.</p>
+        <div class="ornament"><span></span> ♡ <span></span></div>
+        <p class="hero-copy">Another year of your beautiful existence,<br>and I’m so grateful to have you in my life.<br><br>
+        <a class="gold-button" href="#gallery">Our Memories <span>↓</span></a>
+      </div>
+      <div class="scroll-cue">SCROLL TO FEEL THE LOVE <span>↓</span></div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-heading reveal">
+        <span class="tiny-heart">♡</span>
+        <p class="eyebrow">A LITTLE NOTE FOR YOU</p>
+        <h2> Little Dragon <em> </em></h2>
+      </div>
+      <article class="letter-card reveal">
+        <div class="letter-copy">
+          <p class="letter-salutation">My Little Dragon,</p>
+          <p>Happy birthday, my little dragon . October 17 is special because it’s the day someone as wonderful as you came into this world.</p>
+          <p>Thank you for being part of my life and for making even the simplest moments feel meaningful. Your smile, your heart, and the little things you do mean more to me than words can explain.</p>
+          <p>I hope this new year brings you peace, happiness, and every beautiful thing you deserve. I’ll always be cheering for you and making more memories with you.</p>
+          <p class="letter-last">Today is all about you. I love you, always. <span class="red-heart">♥</span></p>
+          <p class="signature">With all my heart,<br><span>Pogi</span></p>
+        </div>
+        <div class="letter-photo-wrap">
+          <div class="tape"></div>
+          <img class="letter-photo" src="images/img1.jpeg"Our letter photo">
+          <p class="photo-caption">I love you ♡</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading reveal">
+        <span class="tiny-heart">♡</span>
+        <p class="eyebrow">OUR MEMORIES</p>
+        <h2><em>Our Memories</em></h2>
+        <p class="section-intro">A collection of moments, big and small,<br>that mean everything because it's with you.</p>
+      </div>
+      <div class="memory-carousel reveal" aria-label="Our memories photo gallery">
+        
+        <div class="gallery-grid" id="memoryGrid">
+          <button class="memory-tile" data-full="images/img2.jpg" aria-label="Open memory photo 1"><img src="images/img2.jpg" alt="Couple embracing at sunset"><span></span></button>
+          <button class="memory-tile" data-full="images/img3.png" aria-label="Open memory photo 2"><img src="images/img3.png" alt="Golden sunset landscape"><span></span></button>
+          <button class="memory-tile" data-full="images/img4.jpeg" aria-label="Open memory photo 3"><img src="images/img4.jpeg" alt="Pink flowers"><span></span></button>
+          <button class="memory-tile" data-full="images/img5.jpg" aria-label="Open memory photo 4"><img src="images/img5.jpg" alt="Romantic roses"><span></span></button>
+          <button class="memory-tile" data-full="images/img6.jpg" aria-label="Open memory photo 5"><img src="images/img6.jpg" alt="Happy moments together"><span></span></button>
+          <button class="memory-tile" data-full="images/img7.jpeg" aria-label="Open memory photo 6"><img src="images/img7.jpeg" alt="Birthday celebration"><span></span></button>
+          <button class="memory-tile" data-full="images/img8.jpg" aria-label="Open memory photo 7"><img src="images/img8.jpg" alt="Couple holding each other"><span></span></button>
+          <button class="memory-tile" data-full="images/img9.jpg" aria-label="Open memory photo 8"><img src="images/img9.jpg" alt="Beautiful outdoor view"><span></span></button>
+        </div>
+       
+      </div>
+      
+      <p class="gallery-note">The little moments that make our story. Replace these sample photos with your own memories.</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span class="footer-line"></span><span class="footer-heart">♡</span>
+    <p>Happy Birthday, <em>My Love</em></p><span class="footer-line"></span>
+    <small>October 17 · Made with love, just for you ♥</small>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="Expanded memory">
+  </div>
+
+  <!-- Put your MP3 at audio/romantic.mp3. Autoplay is attempted; browsers may require a first tap. -->
+  
+  <script src="script.js"></script>
+</body>
+</html>
